@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login">
+
+        <TextView
+            android:id="@+id/Login_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:textColor="@color/primary"
+            android:textSize="38sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextLayout_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Login_Textview"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:hint="Username"
+            app:hintTextColor="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:endIconDrawable="@drawable/outline_account_circle_24"
+            app:endIconMode="custom">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TextEdit_Username"
+                app:textInputLayoutFocusedRectEnabled="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/montserrat"
+                android:inputType="textAutoComplete"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextLayout_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextLayout_Username"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="30dp"
+            app:hintTextColor="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            android:gravity="center_horizontal"
+            android:hint="Password"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:endIconDrawable="@drawable/shaped_lock_icon"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TextEdit_Password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/montserrat"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:typeface="normal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextLayout_Password"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            app:cornerRadius="30px" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/clue_login"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/button_login"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:fontFamily="@font/montserrat"-->
+<!--            android:text="Belum Punya Akun ?"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/button_whatsapp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/clue_login"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginHorizontal="60dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:backgroundTint="@color/secondary"-->
+<!--            android:fontFamily="@font/montserrat"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingVertical="10dp"-->
+<!--            android:text="Hubungi Admin"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/primary"-->
+<!--            app:cornerRadius="30px" />-->
+
+    </RelativeLayout>
+</ScrollView>

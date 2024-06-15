@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/rounded_logout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:text="Apakah anda yakin?" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/batal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/secondary"
+                android:fontFamily="@font/montserrat"
+                android:text="Kembali"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/konfirmasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/primary"
+                android:fontFamily="@font/montserrat"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

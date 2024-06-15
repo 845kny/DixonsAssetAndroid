@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_detail"
+    tools:context=".Kru.CekGudang.Detail.Detail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:id="@+id/back_btn_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="Pinjam Barang"
+            android:drawableLeft="@drawable/round_arrow_back_ios_24"
+            android:fontFamily="@font/montserrat"
+            android:text="Detail"
+            android:textAllCaps="false"
+            android:textColor="@color/primary"
+            android:textFontWeight="900" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back_btn_detail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail_kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/montserrat_alternates"
+                android:text="Kamera"
+                android:textFontWeight="900"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detail_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_alternates_bold"
+                android:text="Sony A6000"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detail_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/montserrat_alternates"
+                android:text="Almari A"
+                android:textFontWeight="900"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/detail_file"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sony_a6000" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/detail_deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elegantTextHeight="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/montserrat_alternates"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="25dp"
+                    android:text="Memiliki sensor sebesar 24 megapixel dan mampu merekam hingga 1080p@60fps, kamera ini cocok digunakan untuk fotografi maupun videografi.
+Kemampuan low light kamera ini juga tergolong baik karna memiliki min. ISO 100 dan max. ISO 25600"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </ScrollView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/detail_lihat_peminjam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextLayout_Password"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/primary"
+                android:fontFamily="@font/montserrat_alternates"
+                android:gravity="center"
+                android:paddingVertical="15dp"
+                android:text="Lihat Peminjam"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:cornerRadius="30px" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

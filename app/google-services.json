@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "565240096115",
+    "project_id": "dixonasset-34b58",
+    "storage_bucket": "dixonasset-34b58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565240096115:android:9540a4e4c407db06e51106",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565240096115-m5h7q9cs3butnl0jl7bpmud6qpq29j8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXr8NbPMzb0ujfzK_zGKk7fEKl56A-ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565240096115-m5h7q9cs3butnl0jl7bpmud6qpq29j8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565240096115:android:54c34912ed622c8fe51106",
+        "android_client_info": {
+          "package_name": "com.example.dixonsasset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565240096115-m5h7q9cs3butnl0jl7bpmud6qpq29j8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXr8NbPMzb0ujfzK_zGKk7fEKl56A-ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565240096115-m5h7q9cs3butnl0jl7bpmud6qpq29j8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
